@@ -13,6 +13,13 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+  
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://172.17.0.2:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+  </distributionManagement>
 
   <dependencies>
     <dependency>
